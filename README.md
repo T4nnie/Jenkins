@@ -149,3 +149,5 @@ fi
 ### 3.5 Logs
 
 Le script créera un fichier log.txt pour vous indiquer les détails de son exécution.
+
+`cat log.txt`
