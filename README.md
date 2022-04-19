@@ -22,9 +22,15 @@ Le document est là pour :
 
 ## 2 Serveurs et pré-requis à l'installation
 
-### 2.1 Rappel : architecture des briques Office
+### 2.1 Rappel : architecture
 
-### 2.2 Pré-requis à l'installation
+```mermaid
+graph LR;
+  VM-->Jenkins;
+  Jenkins-->Jobs
+```
+
+### 2.2 Pré-requis de la VM à l'installation
 
 Ressources nécessaires :
 
@@ -44,20 +50,20 @@ Il vous faut un utilisateur **_jenkins_** pour pouvoir utiliser ce script d'inst
 
 ### 3.1 Composants
 
-| Composants           | Versions   | Recommandation                                 |
-| -------------------- | ---------- | ---------------------------------------------- |
-| Serveur d'applcation | Tomcat 8.5 | Jenkins se lance avec le serveur d'application |
-| Jenkins              | 2.332.2    | Outil d’intégration continue                   |
+| Composants           | Versions      | Détails                                               |
+| -------------------- | ------------- | ----------------------------------------------------- |
+| Serveur d'applcation | Tomcat 8.5.78 | Le serveur d'application avec lequel Jenkins se lance |
+| Jenkins              | 2.332.2       | Outil d’intégration continue                          |
 
 ### 3.2 Par github
 
 Vous pouvez installer via git
 
-#### pour installer git
+#### Pour installer git
 
 `$ sudo apt-get install git`
 
-Et après :
+#### Installation par github
 
 `$ git clone https://github.com/T4nnie/Jenkins.git`
 
