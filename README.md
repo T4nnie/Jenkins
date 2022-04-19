@@ -20,6 +20,11 @@ DIE|Document d'Installation et d'Exploitation
 
 ## 2.2 Pré-requis à l'installation ##
 
+Ressources nécessaires :
+
+- 4GB de Ram
+- 20GB d'espace disque
+
 Le serveur doit se trouver dans **Ubuntu version 16.04.7**
 Il est impératif d'avoir au moins **java 8** d'installer
 ```$ sudo apt-get install openjdk-8-jre```
