@@ -151,3 +151,11 @@ fi
 Le script créera un fichier log.txt pour vous indiquer les détails de son exécution.
 
 `cat log.txt`
+
+### 3.6 Accès à l'application
+
+`http://ip:8080/jenkins`
+
+pour avoir accès à l'ip :
+
+`$ ifconfig`
