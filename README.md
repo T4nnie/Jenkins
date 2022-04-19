@@ -14,6 +14,12 @@
 
 ### 1.2 Objet du document
 
+Le document est là pour :
+
+- [Donner les pré-requis du serveur pour installer le service jenkins](#22-pré-requis-à-linstallation)
+- [Vous guider via une installation par github](#32-par-github)
+- [Vous donner les informations nécessaire pour une installation manuelle](#33-sans-github)
+
 ## 2 Serveurs et pré-requis à l'installation
 
 ### 2.1 Rappel : architecture des briques Office
@@ -30,7 +36,7 @@ Il est impératif d'avoir au moins **java 8** d'installer
 
 `$ sudo apt-get install openjdk-8-jre`
 
-Il vous faut un utilisateur ***jenkins*** pour pouvoir utiliser ce script d'installation.
+Il vous faut un utilisateur **_jenkins_** pour pouvoir utiliser ce script d'installation.
 
 `$ sudo useradd jenkins`
 
@@ -43,4 +49,27 @@ Il vous faut un utilisateur ***jenkins*** pour pouvoir utiliser ce script d'inst
 | Serveur d'applcation | Tomcat 8.5 | Jenkins se lance avec le serveur d'application |
 | Jenkins              | 2.332.2    | Outil d’intégration continue                   |
 
-### 3.2 Configuration du serveur
+### 3.2 Par github
+
+Vous pouvez installer via git
+
+#### pour installer git
+
+`$ sudo apt-get install git`
+
+Et après :
+
+`$ git clone https://github.com/T4nnie/Jenkins.git`
+
+une fois dans le dossier
+
+`$ sh scriptInstallation.sh`
+
+### 3.3 Sans Github
+
+Téléchargez le dossier github et envoyez le dans votre serveur _host_
+
+la commande `$ scp` peut vous aider.
+Une fois le package présent sur votre [serveur](#2-serveurs-et-pré-requis-à-linstallation), placez vous dans le dossier et lancez la commande:
+
+`$ sh scriptInstallation.sh`
