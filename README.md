@@ -46,7 +46,7 @@ Il vous faut un utilisateur **_jenkins_** pour pouvoir utiliser ce script d'inst
 
 `$ sudo useradd jenkins`
 
-## 3 Installation complète du serveur
+## 3 Installation complète du serveur Jenkins
 
 ### 3.1 Composants
 
