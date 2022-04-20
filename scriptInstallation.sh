@@ -11,7 +11,7 @@ then
 fi
 
 #Création du serveur apache
-if [[ -d "/home/jenkins/apache-tomcat-8.5.78" ]]
+if [ -d "/home/jenkins/apache-tomcat-8.5.78" ]
 then
     echo "il existe déjà un tomcat 8.5.78" | tee -a log.txt
     else 
@@ -29,7 +29,7 @@ then
 fi
 
 #On place le fichier jenkins.war dans l'apache serveur
-if [[ -e "/home/jenkins/apache-tomcat-8.5.78/webapps/jenkins.war" ]]
+if [ -e "/home/jenkins/apache-tomcat-8.5.78/webapps/jenkins.war" ]
 then
     echo "jenkins.war est déjà dans le tomcat" | tee -a log.txt
     else
@@ -38,7 +38,7 @@ then
 fi
 
 #Vérification du jenkins.war dans l'apache serveur
-if [[ -e "/home/jenkins/apache-tomcat-8.5.78/webapps/jenkins.war" ]]
+if [ -e "/home/jenkins/apache-tomcat-8.5.78/webapps/jenkins.war" ]
 then 
     echo "le jenkins est bien dans le dossir webapps" | tee -a log.txt
     else 
