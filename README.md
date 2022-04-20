@@ -1,3 +1,5 @@
+<h1 align="center"><img src="https://miro.medium.com/max/1330/0*Sx-CkDRPT2VD0Xx-.jpg "/></h1>
+
 # Installation de Jenkins
 
 | Version | Auteur | Contenu               |
@@ -66,7 +68,7 @@ Vous pouvez installer via git
 
 #### Installation par github
 
-`$ git clone https://github.com/T4nnie/Jenkins.git`
+`$ git clone https://github.com/T4nnie/JenkinsPackInstall-X-plus.git`
 
 une fois dans le dossier
 
@@ -74,9 +76,9 @@ une fois dans le dossier
 
 ### 3.3 Sans Github
 
-Téléchargez le dossier github et envoyez le dans votre serveur _host_
+Téléchargez le dossier github et envoyez le dans votre serveur _host_.
 
-la commande `$ scp` peut vous aider.
+La commande `$ scp` peut vous aider.
 Une fois le package présent sur votre [serveur](#2-serveurs-et-pré-requis-à-linstallation), placez vous dans le dossier et lancez la commande:
 
 `$ sh scriptInstallation.sh`
