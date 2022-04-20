@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://miro.medium.com/max/1330/0*Sx-CkDRPT2VD0Xx-.jpg "/></h1>
+<h1 align="center"><img src="resources/img/0_Sx-CkDRPT2VD0Xx-.jpg "/></h1>
 
 # Installation de Jenkins
 
