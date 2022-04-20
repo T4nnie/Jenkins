@@ -2,11 +2,11 @@
 
 echo "lancement de l'installation du jenkins !" | tee log.txt
 #Vérification d'un dossier untilisateur jenkins
-if [[ -d "/home/jenkins" ]]
+if [ -d "/home/jenkins" ]
 then
     echo "Utilisateur jenkins existant" | tee -a log.txt
     else
-        echo "Il n'y a pas d'e dossier utilisateur jenkins !" | tee -a log.txt
+        echo "Il n'y a pas de dossier utilisateur jenkins !" | tee -a log.txt
         exit 2
 fi
 
