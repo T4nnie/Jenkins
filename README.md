@@ -13,6 +13,7 @@
 | Termes, abréviation | Définition                                |
 | ------------------- | ----------------------------------------- |
 | DIE                 | Document d'Installation et d'Exploitation |
+|le dossier           | fait référence au dossier : "JenkinsPackInstall-X-plus" |
 
 ### 1.2 Objet du document
 
@@ -48,6 +49,10 @@ Il est impératif d'avoir au moins **java 8** d'installer
 Il vous faut un utilisateur **_jenkins_** pour pouvoir utiliser ce script d'installation.
 
 `$ sudo useradd jenkins`
+
+Il est consillé pour le reste de l'install de se connecter à l'utilisateur fraichement créé
+
+`$ sudo su jenkins`
 
 ## 3 Installation complète du serveur Jenkins
 
