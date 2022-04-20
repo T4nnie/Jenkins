@@ -20,7 +20,7 @@ then
 fi
 
 #Vérification du serveur apache décompressé
-if [[ -d "/home/jenkins/apache-tomcat-8.5.78" ]]
+if [ -d "/home/jenkins/apache-tomcat-8.5.78" ]
 then
     echo "Creation du dossier apache réussi !" | tee -a log.txt
     else
