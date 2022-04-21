@@ -48,9 +48,9 @@ Il est impératif d'avoir au moins **java 8** d'installer
 
 Il vous faut un utilisateur **_jenkins_** pour pouvoir utiliser ce script d'installation.
 
-`$ sudo useradd jenkins`
+`$ sudo useradd -m jenkins`
 
-Il est consillé pour le reste de l'install de se connecter à l'utilisateur fraichement créé
+Il est conseillé pour le reste de l'install de se connecter à l'utilisateur fraichement créé et de se placer dans son home.
 
 `$ sudo su jenkins`
 
